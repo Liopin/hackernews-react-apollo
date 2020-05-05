@@ -9,11 +9,11 @@ import * as serviceWorker from './serviceWorker';
 import { ApolloProvider } from 'react-apollo'
 import { ApolloClient } from 'apollo-client'
 import { createHttpLink } from 'apollo-link-http'
-import { InMemoryCache } from 'apolo-cache-inmemory'
+import { InMemoryCache } from 'apollo-cache-inmemory'
 
 // Graphql server
 const httpLink = new createHttpLink({
-  uri:'http://localthost:4000'
+  uri:'http://localhost:4000'
 })
 
 const client = new ApolloClient({
