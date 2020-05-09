@@ -24,6 +24,7 @@ const VOTE_MUTATION = gql`
     }
 `
 
+
 class Link extends Component {
     
     render() {
